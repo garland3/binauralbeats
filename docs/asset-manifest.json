@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/binauralbeats/static/css/main.1538eea6.css",
+    "main.js": "/binauralbeats/static/js/main.a4297151.js",
+    "static/js/453.b8558da6.chunk.js": "/binauralbeats/static/js/453.b8558da6.chunk.js",
+    "index.html": "/binauralbeats/index.html",
+    "main.1538eea6.css.map": "/binauralbeats/static/css/main.1538eea6.css.map",
+    "main.a4297151.js.map": "/binauralbeats/static/js/main.a4297151.js.map",
+    "453.b8558da6.chunk.js.map": "/binauralbeats/static/js/453.b8558da6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1538eea6.css",
+    "static/js/main.a4297151.js"
+  ]
+}
