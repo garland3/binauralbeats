@@ -1,38 +1,133 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2em;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.timer {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.timer h2 {
+  font-size: 2.5em;
+  color: #ff6347;
+  margin: 10px 0;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.timer-buttons button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+.timer-buttons button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.controls {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.control {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 1em;
+  width: 100px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.start-btn {
+  background-color: #4CAF50;
+}
+
+.stop-btn {
+  background-color: #f44336;
+}
+
+.btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.timer .control {
+  margin-top: 10px;
+}
+
+.timer .control input[type="number"] {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.start-all-btn {
+  background-color: #9c27b0;
+}
+
+.start-all-btn:disabled {
+  background-color: #d1a7dd;
+}
+
+.waveform {
+  width: 100%;
+  height: 100px;
+  margin: 20px 0;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.audio-upload {
+  margin: 20px 0;
+}
+
+.audio-controls {
+  margin-top: 10px;
+}
+
+.audio-controls button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4CAF50;
 }
